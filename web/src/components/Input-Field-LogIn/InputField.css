@@ -1,0 +1,26 @@
+@media (min-width: 600px) {
+    .textField ::placeholder{
+        padding:10px;
+    }
+    #outlined-adornment-name {
+        height:0.05vh;
+        width: 23rem;
+    }
+
+    #outlined-adornment-password{
+        height:0.05vh;
+        width: 19.5rem;
+    }
+    .input__name {
+        margin-bottom: 10px;
+    }
+    .input__email{
+        margin-bottom: 30px;
+    }
+    .input__password{
+        margin-bottom: 10px;
+    }
+    .input__Confirmpassword{
+        margin-bottom: 50px;
+    }
+}

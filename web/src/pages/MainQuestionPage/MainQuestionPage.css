@@ -1,0 +1,246 @@
+.MainQuestionPage__Container{
+    background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        height: auto;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding-top:3vh;
+        padding-right:8vh;
+        border-radius: 8px;
+        
+        display:flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        align-content: center;
+}
+.closeness{
+    margin: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.MainQuestionPage__title{
+    align-self: center;
+    font-weight: 700;
+}
+.horizontalLine_MainQuestionPage{
+    border: 0.5px solid black;
+}
+.Back__button{
+    background-color: transparent;
+    border:none;
+    color: white;
+    margin-top:2vh;
+    margin-left:2vh;
+    display: block;
+
+}
+.MainQuestionPage__Question, .MainQuestionPage__Hint{
+    padding-bottom: 1vh;
+    margin-left: 5.5vh;
+}
+
+.MainQuestionPage__ImageContainer{
+    text-align: center;
+    margin-left: 7vh;
+    height: 45vh;
+    width: 40vh;
+    border: 2px solid rgb(60,60,60);
+     
+    margin-bottom: 2vh;
+    padding-top: 12vh;
+}
+
+/* .MainQuestionPage__SubmitButton{
+    width: auto;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+    border:none;
+    padding:1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    border: 0.7px solid white;
+    margin-left: 5rem;
+} */
+
+.button_container_main_question{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:600px){
+    .closeness{
+        margin: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .MainQuestionPage__Container{
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        height: auto;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding-top:3vh;
+        padding-right:8vh;
+        border-radius: 8px;
+        
+        display:flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        align-content: center;
+    }
+    .MainQuestionPage__title{
+        align-self: center;
+        font-weight: 700;
+    }
+    .horizontalLine_MainQuestionPage{
+        border: 0.5px solid black;
+    }
+    .MainQuestionPage__Question, .MainQuestionPage__Hint{
+        padding-bottom: 1vh;
+        margin-left: 5.5vh;
+    }
+
+    .MainQuestionPage__ImageContainer{
+        text-align: center;
+        align-self: center;
+        height: 45vh;
+        width: 100vh;
+        border: 2px solid rgb(60,60,60);
+        margin-left: 6vh; 
+        margin-bottom: 2vh;
+
+    }
+
+    /* .MainQuestionPage__ImageContainer__Horizontal{
+        text-align: center;
+        align-self: center;
+        position: absolute;
+        top: 53%;
+        left: 49%;  
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        height: 35vh;
+        width: 100.4vh;
+        border: 5px solid white;
+        
+    }
+
+    .MainQuestionPage__ImageContainer__Vertical{
+        text-align: center;
+        align-self: center;
+        position: absolute;
+        top:49.8%;
+        left:50%;  
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        height: 45.5vh;
+        width: 80vh;
+        border: 5px solid white;
+    } */
+
+    .Back__button{
+        background-color: transparent;
+        border:none;
+        color: white;
+        margin-top:2vh;
+        margin-left:2vh;
+        display: block;
+ 
+    }
+
+    .MainQuestionPage__SubmitButton{
+        width: auto;
+        height:auto;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+        background-color: black;
+        color:white;
+        font-size: 1.2rem;
+        letter-spacing: 0.3px;
+        border:none;
+        padding:1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        margin-bottom: 2rem;
+        position: relative;
+        border: 0.7px solid white;
+       
+    }
+
+    .button_container_main_question{
+        margin-top: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    
+}
+
+/* New revamped CSS */
+
+.MainQuestionPage__SubmitButton{
+    width: auto;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+    border:none;
+    padding:1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    border: 0.7px solid white;
+}
+
+#questions-container{
+    max-width: 800px;
+    background-color: white;
+    padding: 4px;
+    margin: 2em auto;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#question-heading{
+    padding-bottom: 1em;
+    border-bottom: 1px solid #454545;
+}
+
+#q-img {
+    max-width: 576px;
+    padding: 8px;
+    border: 1px solid #454545;
+}
+
+@media (max-width: 576px) { 
+    #questions-container{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    #q-img {
+        max-width: 300px;
+    }
+ }

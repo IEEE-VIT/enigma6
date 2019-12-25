@@ -1,0 +1,19 @@
+.Header{
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+@media (max-width: 760px){
+  .Header{
+    font-size: 24px;
+  }
+}
+
+@media (max-height: 700px) and (min-width: 700px){
+  .Header{
+    font-size: 24px;
+  }
+}

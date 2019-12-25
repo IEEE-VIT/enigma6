@@ -1,0 +1,20 @@
+.textField ::placeholder{
+    padding:10px;
+}
+#standard-required {
+    width: 23rem;
+}
+
+#standard-password-input{
+    width: 19.5rem;
+}
+
+.input {
+    margin-top: 6px !important;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.textField{
+    font-size: 18px !important;
+}

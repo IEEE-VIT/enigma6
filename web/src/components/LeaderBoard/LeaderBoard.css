@@ -1,0 +1,40 @@
+#table-holder{
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#table-holder h3{
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #454545;
+
+}
+
+#leaderboard-table{
+    width: 100%;
+    border-collapse:separate; 
+    border-spacing:0 15px;
+    text-align: center;
+}
+
+#leaderboard-table th{
+    font-weight: bold;
+    text-align: center;
+}
+
+.load{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+}
+
+@media (max-width: 576px) { 
+    #table-holder{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+}

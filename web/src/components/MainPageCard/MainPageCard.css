@@ -1,0 +1,62 @@
+.div0{
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.div1 {
+	height: 335px;
+	width: 404px;
+	background-color: #ffffff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    display: flex;
+    
+    background:
+    linear-gradient(to right, white 2px, transparent 2px) 0 0,
+    linear-gradient(to right, white 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, white 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, white 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, white 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, white 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, white 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, white 2px, transparent 2px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.div2 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    height: 337px;
+    width: 406px;
+    background-color: #ffffff00;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+}
+
+.cookieToast{
+    margin-top: 30vh;
+}
+
+@media (max-width: 600px){
+    .div1{
+        width: 320px;
+    }
+
+    .div2{
+        width: 322px;
+    }
+}

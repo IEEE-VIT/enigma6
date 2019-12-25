@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{opacity:.48}.cls-2{fill:rgba(255,255,255,0)}.cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="closed_eye" class="cls-1" data-name="closed eye" transform="translate(-1069 -556)">
+        <path id="Rectangle_158" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 158" transform="translate(1069 556)"/>
+        <g id="eye-off" transform="translate(1072 558.884)">
+            <path id="Path_1841" d="M13.421 14.221a7.384 7.384 0 0 1-4.355 1.51C3.933 15.732 1 9.866 1 9.866A13.528 13.528 0 0 1 4.71 5.51m2.816-1.334A6.687 6.687 0 0 1 9.066 4c5.133 0 8.066 5.866 8.066 5.866a13.565 13.565 0 0 1-1.584 2.339m-4.928-.785a2.2 2.2 0 1 1-3.109-3.109" class="cls-3" data-name="Path 1841" transform="translate(0 -.811)"/>
+            <path id="Line_7" d="M0 0l16 16" class="cls-3" data-name="Line 7" transform="translate(1 1.116)"/>
+        </g>
+    </g>
+</svg>

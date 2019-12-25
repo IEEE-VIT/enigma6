@@ -1,0 +1,18 @@
+.Footer_Text{
+    font-size: 18px;
+    letter-spacing:0.3px;
+    margin-bottom: 1vh;
+}
+
+@media (max-width: 760px){
+    .Footer_Text{
+        margin: 2px auto;
+        font-size: 16px;
+    }
+}
+
+@media (max-height: 700px) and (min-width: 700px){
+    .Footer_Text{
+        font-size: 12px;
+    }
+  }

@@ -1,0 +1,80 @@
+.ReactModalPortal > div {
+    opacity:0;
+}
+
+.ReactModalPortal .ReactModal__Overlay{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.Modal{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color:black;
+    width: 60vh;
+    /* padding:10px; */
+    outline: none;
+    height: 80%;
+    text-align:center;
+    font-style: "Saira";
+    border-radius: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Button_container_modal_changeUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: 2vh; */
+    margin-bottom: 30vh;
+    margin-top:20vh;
+}
+
+.modal__title{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button__modal__use, .button__modal__no{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+   
+}
+
+.button__modal__use{
+    background-color: black;
+    color:white;
+}
+
+.errMsg_username_modal{
+    color:black;
+    font-style: "Saira";
+    font-style: italic;
+}
+
+@media (max-height: 700px) and (min-width: 700px){
+
+    .Button_container_modal_changeUser{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* margin-top: 2vh; */
+        margin-bottom: 30vh;
+        margin-top:15%;
+    }
+
+}

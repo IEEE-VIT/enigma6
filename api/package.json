@@ -1,0 +1,43 @@
+{
+  "name": "Enigma6-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankshah1607/Enigma6-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayankshah1607/Enigma6-Backend/issues"
+  },
+  "homepage": "https://github.com/mayankshah1607/Enigma6-Backend#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^6.4.2",
+    "firebase-admin": "^8.4.0",
+    "helmet": "^3.21.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.4",
+    "recaptcha-verify": "^0.1.1",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.1.0",
+    "mocha": "^6.2.2"
+  }
+}

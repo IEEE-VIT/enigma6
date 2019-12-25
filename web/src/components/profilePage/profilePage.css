@@ -1,0 +1,304 @@
+.signupcard{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius:16px;
+    position:absolute;
+    background: #fff;
+    align-self: center;
+    display: flex;
+    height: auto;
+    /* padding-top:5vh;
+    padding-left:8vh;
+    padding-right:8vh; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.setUpProfileCard{
+    margin-top:1%;
+    /* margin-bottom:0%; */
+    padding-top: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius:16px;
+    background: #fff;
+    height: auto;
+    width : 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.inputFieldContainer{
+    width: 87%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 38px;
+    font-weight: 600;
+    font-size:3vh;
+    color: var(--black);
+    margin-bottom: -21px;
+}
+/* input:active{
+    border: none;
+    border-bottom: 1px solid red; 
+} */
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px red solid; */
+    width: 100%;
+    margin-bottom: 1%;
+}
+.questionsContainer{
+    border: 1px black solid;
+    border-radius: 10%;
+    height: 12rem;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6%;
+}
+.pointsContainer{
+    height: 12rem;
+    width: 25%;
+    border: 1px black solid;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 6%;
+}
+.positionContainer{
+    border: 1px black solid;
+    border-radius: 10%;
+    height: 12rem;
+    width: 25%;
+    text-align: center;
+    padding-top: 6%;
+}
+.containerHeading{
+    font-size: 2px;
+}
+.containerContent{
+    font-weight: 700;
+    font-size: 21px;
+     
+}
+.Name_Container{
+    display: flex;
+    flex-direction: column;
+}
+.Display_Name{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    /* border-bottom: 1px solid black; */
+    font-weight: 500;
+}
+.inputHeader{
+    margin-left: 5%;
+    margin-bottom: -1.1%;
+    opacity: 0.5
+}
+.nameInput:link{
+    border: none;
+    /* border-bottom: 1px solid red; */
+}
+.horizontal_line{
+    width: 100%;
+    border-bottom: 3px solid #A9A9A9;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.inputField{
+    /* display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    margin-bottom: 15px; */
+    width: 87%;
+    margin-left: 6%;
+    margin-top: -1.12%;
+    font-weight: 500;
+    /* border: 1px solid red; */
+}
+.emailField{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    /* border-bottom: 1px solid black; */
+    font-weight: 500;
+}
+.usernameField{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    /* border-bottom: 1px solid black; */
+}
+.name{
+    /* margin-left: 45px;
+    width: 15%; */
+    /* border: 1px solid yellow; */
+    padding-right: 10vh;
+    /* width: 93%; */    
+}
+.nameContainer{
+    width: 100%;
+    /* border: 2px solid orangered; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 15px; */
+}
+.editPen{
+    height: 21px;
+    width: 21px;
+    /* margin-left: 90%; */
+}
+.iconContainer{
+    position: absolute;
+    width: 20px;
+    height: -50px;
+    display: inline-block;
+    padding-left: 90%;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+}
+.doneButton{
+    width: auto;
+    height: 0%;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24);
+    background-color: white;
+    color:black;
+     
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+    border:none;
+    padding: 1.1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.doneButton:hover{
+    cursor: pointer;
+}
+@media(min-width: 700px){
+    .containerHeading{
+        font-size: 2px;
+    }
+    .containerContent{
+        font-weight: 700;
+        font-size: 21px;
+         
+    }
+    .setUpProfileCard{
+        width: 50%;
+    }
+    .horizontal_line{
+        width: 100%;
+        border-bottom: 3px solid #A9A9A9;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .inputField{
+        margin-top: -1.2%;
+        font-weight: 500;
+    }
+    .editPen{
+        height: 16px;
+        width: 16px;
+        margin-left: 6%;
+    }
+}
+
+.NewDisplayName{
+    margin-top: 40px;
+}
+
+.displayName__edit{
+    border:none;
+    background-color: transparent;
+}
+
+@media (max-width: 600px) {
+    .containerHeading{
+        font-size: 2px;
+    }
+    .containerContent{
+        font-weight: 700;
+        font-size: 21px;
+         
+    }
+    .setUpProfileCard{
+        padding-top: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius:16px;
+        background: #fff;
+        height: auto;
+        width : 96%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        
+    }
+    .horizontal_line{
+        width: 100%;
+        border-bottom: 3px solid #A9A9A9;
+        margin-top: 27px;
+        margin-bottom: 15px;
+    }
+    .editPen{
+        height: 16px;
+        width: 16px;
+        margin-left: 30%;
+    }
+    .questionsContainer{
+        padding-top: 10%;
+    }
+    .pointsContainer{
+        padding-top: 10%;
+    }
+    .positionContainer{
+        padding-top: 10%;
+    }
+    .inputField{
+        margin-top: -5%;
+        font-weight: 500;
+    }
+    .doneButton{
+        width: auto;
+        height: 0%;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24);
+        /* background-color: bla; */
+        color:black;
+         
+        font-size: 1.2rem;
+        letter-spacing: 0.3px;
+        border:none;
+        padding:1.1rem;
+        margin-bottom: 2rem;
+    }
+  }

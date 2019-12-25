@@ -1,0 +1,45 @@
+{
+  "name": "enigma6-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.4.1",
+    "@material-ui/icons": "^4.4.1",
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.1.0",
+    "firebase": "^7.1.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-cookie-consent": "^2.5.0",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^16.9.0",
+    "react-google-recaptcha": "^2.0.1",
+    "react-modal": "^3.10.1",
+    "react-particles-js": "^2.7.0",
+    "react-recaptcha": "^2.3.10",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "recaptcha-verify": "^0.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

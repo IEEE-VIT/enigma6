@@ -1,0 +1,5 @@
+@media (max-height: 576px) { 
+    .img {
+        display: none;
+    }
+}

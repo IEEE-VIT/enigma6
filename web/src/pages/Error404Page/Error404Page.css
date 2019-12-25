@@ -1,0 +1,22 @@
+#img-404-holder{
+    position: absolute;
+	top:20vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#img-404{
+    width: 550px;   
+}
+
+@media (max-width: 768px){
+    #img-404{
+        width: 100%;   
+    } 
+
+    #img-404-holder{
+        top:30vh;
+    }
+}

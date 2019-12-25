@@ -1,0 +1,42 @@
+.auth-card{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 7px #efefef;
+    position: absolute;
+    width: 100%;
+    max-width: 416px;
+    padding: 8px 4px;
+    top: 50%;
+    margin-top: -180px;
+
+}
+
+.Header{
+    text-align: center;
+}
+
+.line {
+    border: 0.4px solid #454545 !important;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+/*   */
+@media (min-width: 461px) {
+    .auth-card{
+        background-color: white;
+        width: 100%;
+        max-width: 320px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -160px;
+        margin-top: -180px;
+    }
+
+}

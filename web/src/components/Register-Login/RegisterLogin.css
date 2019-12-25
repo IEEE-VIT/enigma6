@@ -1,0 +1,8 @@
+#reg-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #454545;
+}

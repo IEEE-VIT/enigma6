@@ -1,0 +1,146 @@
+/* .GetFamiliarCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    align-items: center;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top:5vh;
+    padding-right:8vh;
+    border-radius: 8px;
+    padding-bottom: 2vh;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.getfamiliar__title{
+    align-self: center;
+    
+} */
+
+/* .getFamiliar__button{
+    width: auto;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24);
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+    border:none;
+    padding:1.2rem;
+    margin-top: 15vh;
+} */
+
+/* .horizontalLine_getfamiliar{
+    border: 0.5px solid black;
+} */
+
+
+
+@media (min-width:600px){
+
+    /* .GetFamiliarCard{
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding-top:5vh;
+        padding-right:8vh;
+        border-radius: 8px;
+        padding-bottom: 2vh;
+        justify-content: center;
+        display:flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .getfamiliar__title{
+        align-self: center;
+        
+    } */
+    
+    .getFamiliar__button{
+        width: auto;
+        height:auto;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24);
+        background-color: black;
+        color:white;
+        font-size: 1.2rem;
+        letter-spacing: 0.3px;
+        border:none;
+        padding:1.2rem;
+        /* margin-top: 15vh; */
+    }
+/*     
+    .horizontalLine_getfamiliar{
+        border: 0.5px solid black;
+    }
+
+
+    ul li {
+        margin-right: 20vh;
+    } */
+
+
+}
+
+/* Revamped CSS */
+
+#get-familiar{
+    position: relative;
+    max-width: 800px;
+    background-color: white;
+    padding: 4px;
+    margin: 2em auto;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 1em;
+    line-height: 1.4em;
+    top: 8vh;
+}
+
+#rules{
+    text-align: left;
+    font-size: 1.1em;
+    padding: 2em;
+}
+
+.getFamiliar__button{
+    width: auto;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24);
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+    border:none;
+    padding:1.2rem;
+}
+
+@media (max-width: 576px) { 
+    #get-familiar{
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    #rules{
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+}

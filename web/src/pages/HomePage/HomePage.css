@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+  }
+  
+  #homeParent{
+    height: 100vh;
+  }
+
+  .img {
+    height: auto;
+    width: 60px;
+    position: absolute;
+  }
+
+  .leftUp{
+    top: 10.2%;
+    left: 4.3%;
+  }
+
+  .leftDown{
+    bottom: 10.2%;
+    left: 4.3%;
+  }
+
+  .rightUp{
+    top: 10.2%;
+    right: 4.3%;
+  }
+
+  .rightDown{
+    bottom: 10.3%;
+    right: 4.3%;
+  }
+  
+@media (max-width: 760px) { 
+  .leftUp{
+    top: 4.3%;
+  }
+
+  .leftDown{
+    bottom: 4.3%;
+  }
+
+  .rightUp{
+    top: 4.3%;
+  }
+
+  .rightDown{
+    bottom: 4.3%;
+  }
+}

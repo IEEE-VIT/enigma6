@@ -1,0 +1,28 @@
+.button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+    color: white;
+    font-size: 24px;
+    line-height: 38px;
+    width: 98%;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+button:focus{
+    border: none;
+    outline-width: 0;
+    opacity: 1;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.mainpagebutton{
+    margin: 2% 0px;
+}

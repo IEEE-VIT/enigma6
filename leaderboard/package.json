@@ -1,0 +1,23 @@
+{
+  "name": "enigma-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.6.0",
+    "helmet": "^3.21.1",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0"
+  }
+}

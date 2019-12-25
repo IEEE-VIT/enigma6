@@ -1,0 +1,25 @@
+# sudo: required
+
+# services:
+#   - docker
+
+before_install: skip
+
+script: skip
+
+# after_success:
+#   - docker build -t mayankshah1607/enigma6-api .
+#   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+#   - docker push mayankshah1607/enigma6-api
+
+deploy:
+  provider: elasticbeanstalk
+  region: ap-south-1
+  app: Enigma-Frontend
+  env: Enigma6-API
+  bucket_name: elasticbeanstalk-ap-south-1-178631131129
+  bucket_path: Enigma-Frontend
+  on:
+    branch: master
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"

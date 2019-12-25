@@ -1,0 +1,161 @@
+.TimerPage{
+    text-align: center;
+    margin-top: 15%;
+} 
+.Timer__heading{
+    color: white;
+    font-size: 32px;
+}
+.Timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    margin: 35px;
+}
+
+.Timer__days{
+    color:white;
+    padding:14px;
+    align-self: center;
+    width:auto;
+    font-size: 25px;
+    margin: 20px;
+    border-bottom: 2px solid white;
+}
+.Timer__hours{
+    color:white;    align-self: center;
+    width:auto;
+    padding:14px;
+    font-size: 25px;
+    margin: 20px;
+    border-bottom: 2px solid white;
+}
+.Timer__mins{
+    color:white;
+    padding:14px;
+    align-self: center;
+    width:auto;
+    font-size: 25px;
+    margin: 20px;
+    border-bottom: 2px solid white;
+}
+.Timer__seconds{
+    color:white;    padding:14px;
+    align-self: center;
+    width:auto;
+    font-size: 25px;
+    margin: 20px;
+    border-bottom: 2px solid white;
+}
+.Back_Button_Container_Timer{
+    display: flex;
+    justify-content: center;
+}
+.Arrow{
+    margin-right:10px;
+    animation: shake 2s infinite;
+}
+.Back__button__Timer{
+    margin-top:2%;
+    color:white;
+    background-color: transparent;
+    border:none;
+    display: flex;
+    justify-content: center;
+}
+.Back__button__Timer:hover{
+    -moz-transition-delay: 0.08s;
+    margin-top:2%;
+    text-decoration: underline;
+    color:white;
+    background-color: transparent;
+    border:none;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 600px) {
+    .TimerPage{
+        text-align: center;
+        margin-top: 10%;
+    } 
+    .Timer__heading{
+        color: white;
+        font-size: 48px;
+    }
+    .Timer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1%;
+    }
+
+    .Timer__days{
+        color:white;
+        padding:14px;
+        font-size: 32px;
+        margin: 30px;
+        border: none;
+    }
+    .Timer__hours{
+        color:white;
+        padding:14px;
+        font-size: 32px;
+        margin: 30px;
+        border: none;
+    }
+    .Timer__mins{
+        color:white; 
+        padding:14px;
+        font-size: 32px;
+        margin: 30px;
+        border: none;
+    }
+    .Timer__seconds{
+        color:white;
+        padding:14px;
+        font-size: 32px;
+        margin: 30px;
+        border: none;
+    }
+    .Back_Button_Container_Timer{
+        display: flex;
+        justify-content: center;
+    }
+    .Arrow{
+        margin-right:10px;
+        animation: shake 2s infinite;
+    }
+    .Back__button__Timer{
+        margin-top:2%;
+        color:white;
+        background-color: transparent;
+        border:none;
+        display: flex;
+        justify-content: center;
+    }
+    .Back__button__Timer:hover{
+        -moz-transition-delay: 0.08s;
+        margin-top:2%;
+        text-decoration: underline;
+        color:white;
+        background-color: transparent;
+        border:none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 0px); }
+    10% { transform: translate(2px, 0px);}
+    20% { transform: translate(-1px, 0px) ;}
+    30% { transform: translate(-2px, 0px); }
+    40% { transform: translate(1px, 0px);}
+    50% { transform: translate(2px, 0px); }
+    60% { transform: translate(-1px, 0px); }
+    70% { transform: translate(-2px, 0px); }
+    80% { transform: translate(1px, 0px); }
+    90% { transform: translate(2px, 0px) }
+    100% { transform: translate(-1px, 0px); }
+  }

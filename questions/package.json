@@ -1,0 +1,31 @@
+{
+  "name": "enigma6-questracker-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthakpranesh/Enigma6-quesTracker-microService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthakpranesh/Enigma6-quesTracker-microService/issues"
+  },
+  "homepage": "https://github.com/sarthakpranesh/Enigma6-quesTracker-microService#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "firebase-admin": "^8.6.0",
+    "helmet": "^3.21.1",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0"
+  }
+}

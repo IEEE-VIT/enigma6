@@ -1,0 +1,13 @@
+before_install: skip
+script: skip
+deploy:
+  provider: elasticbeanstalk
+  region: ap-south-1
+  app: Enigma-Frontend
+  env: EnigmaFrontend-new-prod
+  bucket_name: elasticbeanstalk-ap-south-1-178631131129
+  bucket_path: Enigma-Frontend
+  on:
+    branch: prod-build
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"
