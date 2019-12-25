@@ -31,3 +31,8 @@ Enigma is an online cryptic hunt conducted every year by IEEE VIT Vellore. Parti
 * Fenil Jain (<a href="https://github.com/Devil39">@Devil39</a>)
 * Yuvraj Singh (<a href="https://github.com/iamuv2000">@iamuv2000</a>)
 * Divyansh (<a href="https://github.com/noob-master147">@noob-master147</a>)
+
+## License
+This project is licensed under [MIT License](https://github.com/mayankshah1607/enigma6/blob/master/LICENSE)
+<br><br><br><br>
+*with :heart: from [IEEE-VIT](https://ieeevit.com)*
